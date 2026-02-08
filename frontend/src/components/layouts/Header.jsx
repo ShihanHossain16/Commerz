@@ -13,7 +13,7 @@ function Header() {
           <span className='text-3xl text-slate-800 font-bold'>ECOMM</span>
         </Link>
 
-        <nav className="text-md text-gray-800 space-x-5 flex items-center">
+        <nav className="text-md hidden text-gray-800 space-x-5 sm:flex items-center">
           <Link className='hover:text-green-500' to={'/'}>Home</Link>
           <Link className='hover:text-green-500' to={'/shop'}>Shop</Link>
           <Link className='hover:text-green-500' to={'/'}>Mens</Link>
